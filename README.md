@@ -1,5 +1,8 @@
 # homebrew-cerebro
 
+[![Homebrew](https://img.shields.io/badge/homebrew-brew%20install-fbb040?logo=homebrew&logoColor=white)](#installer)
+[![Release](https://img.shields.io/github/v/release/CODA-SCHOOL-FRANCE/xavier-releases?label=xavier&color=blue)](https://github.com/CODA-SCHOOL-FRANCE/xavier-releases/releases)
+
 Tap Homebrew pour Xavier, l'agent candidat de
 [Cerebro](https://github.com/CODA-SCHOOL-FRANCE/cerebro) (dépôt privé). Ce dépôt ne contient
 aucun code source, uniquement `Formula/xavier.rb`, régénérée automatiquement à chaque release par
