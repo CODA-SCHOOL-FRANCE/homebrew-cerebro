@@ -1,23 +1,23 @@
 class Xavier < Formula
   desc "Agent candidat Cerebro (surveillance d'épreuves)"
   homepage "https://github.com/CODA-SCHOOL-FRANCE/cerebro"
-  version "0.1.4"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/CODA-SCHOOL-FRANCE/cerebro/releases/download/agent-v0.1.4/Xavier-0.1.4-osx-arm64.zip"
-      sha256 "8160e0127d5c5e7de24484c2ee9eeaaf48a6fbffcc8f62847eed9c64f5f851ee"
+      url "https://github.com/CODA-SCHOOL-FRANCE/cerebro/releases/download/v0.2.0/Xavier-0.2.0-osx-arm64.zip"
+      sha256 "93a7f049c0416db77619be3b975d91a1c76e497da38509d6a5bae7a968d19c88"
     end
     on_intel do
-      url "https://github.com/CODA-SCHOOL-FRANCE/cerebro/releases/download/agent-v0.1.4/Xavier-0.1.4-osx-x64.zip"
-      sha256 "67c4fa4e52c1ad7578ceb851b5861a5ded37b61c9a37dd3b6a84b55f82a9da1e"
+      url "https://github.com/CODA-SCHOOL-FRANCE/cerebro/releases/download/v0.2.0/Xavier-0.2.0-osx-x64.zip"
+      sha256 "fd314b9d0b12c5379a3a386f47db7a6e7add0d239556d7a14173cade1220cb0b"
     end
   end
 
   on_linux do
-    url "https://github.com/CODA-SCHOOL-FRANCE/cerebro/releases/download/agent-v0.1.4/Xavier-0.1.4-linux-x64.zip"
-    sha256 "f3da77617300aad5ac78b8c82c8c71840934860af077ec585355cd30bf3b894c"
+    url "https://github.com/CODA-SCHOOL-FRANCE/cerebro/releases/download/v0.2.0/Xavier-0.2.0-linux-x64.zip"
+    sha256 "8e08f387f4b03c23a4f5049f059cdbe46a483c08689ba43bb818814e930b5677"
   end
 
   def install
